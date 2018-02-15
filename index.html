@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>TSP</title>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+	<script src="city.js"></script>
+	<script src="geneticMethods.js"></script>
+	<script src="sketch.js"></script>
+	<script src="newAlgorithm.js"></script>
+	</head>
+	<h1>TSP Algorithms</h1>
+	<p id="bests"></p>
+	<form>
+		Nodes: <input type="number" id="nodes"/><br>
+		Population Size: <input type="number" id="popsize"/><br>
+		Tour Size: <input type="number" id="tour"/><br>
+		Mutation Rate (0-1): <input type="number" id="mutation"/><br>
+	</form>
+	<button onclick="resetPage()">Set Values</button><br>
+	<p id="solutions"></p>
+</html>
